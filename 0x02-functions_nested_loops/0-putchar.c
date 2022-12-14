@@ -3,13 +3,14 @@
 /**
  * main - prints putchar
  *
- * Description - print putchar
+ * Description: - print putchar
  *
- * Return 0 (success)
+ * Return: 0 (success)
  */
 
 int main(void)
 {
 	printf("_putchar\n");
+	
 	return (0);
 }
