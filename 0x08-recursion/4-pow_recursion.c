@@ -17,10 +17,10 @@ int _pow_recursion(int x, int y)
 	}
 	else if (y < 0)
 	{
-		return (x * _pow_recursion(x, y + 1) / x);
+		return (_pow_recursion(x, y + 1) / x);
 	}
 	else
 	{
-		return (x * _pow_recursion(x, y - 1) * x);
+		return (_pow_recursion(x, y - 1) * x);
 	}
 }
